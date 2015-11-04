@@ -20,7 +20,7 @@ Have been tested on Wildfly9. Works well with envers (despite of JPA-Convertors 
 
 ## Usage:
 
-Simply add the jar to  $WILDFLY_HOME/modules/system/layers/base/org/hibernate/main and register in module.xml:
+Simply add the jar to  `$WILDFLY_HOME/modules/system/layers/base/org/hibernate/main` and register in module.xml:
 
 ```xml
 <module xmlns="urn:jboss:module:1.3" name="org.hibernate">
@@ -55,3 +55,6 @@ Simply add the jar to  $WILDFLY_HOME/modules/system/layers/base/org/hibernate/ma
     </dependencies>
 </module>
 ```
+
+
+and in entities add references to proper types via hibernate's `@Type` annotations
