@@ -14,6 +14,9 @@ Supports following classes:
 
 This library is simple copy-paste port (with import fixes) of original hibernate-java8 module from Hibernate5 source base.
 
+Using this library will decrease switching cost to pure Hibernate5. Same code works well with Hibernate5 with
+hibernate-java8 module from it.
+
 
 Have been tested on Wildfly9. Works well with envers (despite of JPA-Convertors which are not working with it)
 
